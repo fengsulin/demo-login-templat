@@ -7,6 +7,9 @@ import com.example.template.template.LoginTemplate;
 import com.example.template.utils.JsonUtils;
 import org.springframework.stereotype.Service;
 
+/**
+ * 用户名密码登录策略
+ */
 @Service
 public class AccountPwdLogProcessor extends LoginTemplate {
     private AccountPwdLoginRo pwdLoginRo;
