@@ -1,11 +1,13 @@
 :::info
 日常中，我们的程序登录方式可能不止一种，比如用户名和密码登录、短信验证码登录、扫码登录等，如果每种都定义不同的接口去实现他们，就会增加代码冗余、维护难度和可读性。因此可以通过结合策略模式定义不同的登录策略，模板方法提供统一的登录实现。
+
 :::
 **_环境_**：
 
 - `springboot`：`v3.0.5`
 
 **_项目源码地址_**：`[https://github.com/fengsulin/demo-login-templat.git](https://github.com/fengsulin/demo-login-templat.git)`
+
 **_项目整体结构图如下_**：
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/27231925/1679808429921-c041c5bb-d697-4957-baa8-45c35e11cb99.png#averageHue=%23798a5d&clientId=ub3deec83-40ad-4&from=paste&height=632&id=jv7OF&name=image.png&originHeight=790&originWidth=1106&originalType=binary&ratio=1.25&rotation=0&showTitle=false&size=156545&status=done&style=none&taskId=ua06e373d-87fd-4cfd-8b68-2f46e6b216c&title=&width=884.8)
 ## 一、依赖项
